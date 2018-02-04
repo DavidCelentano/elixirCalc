@@ -15,11 +15,11 @@ defmodule CalcTest do
   end
 
   test "division" do
-    assert Calc.eval("9 / 9") == 1
+    assert Calc.eval("90 / 9") == 10
   end
 
   test "parens" do
-    assert Calc.eval("5 * (9 + 9)") == 90
+    assert Calc.eval("50 * (9 + 9)") == 900
   end
 
   test "bonus" do
